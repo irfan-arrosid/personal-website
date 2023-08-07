@@ -5,19 +5,19 @@
         </div>
         <ul class="text-white text-base flex items-center ml-auto">
             <li>
-                <nuxt-link class="px-4 py-3" to="#">Home</nuxt-link>
+                <nuxt-link class="px-4 py-3 hover:underline" to="#">Home</nuxt-link>
             </li>
             <li>
-                <nuxt-link class="px-4 py-3" to="#">About</nuxt-link>
+                <nuxt-link class="px-4 py-3 hover:underline" to="#">About</nuxt-link>
             </li>
             <li>
-                <nuxt-link class="px-4 py-3" to="#">Projects</nuxt-link>
+                <nuxt-link class="px-4 py-3 hover:underline" to="#">Projects</nuxt-link>
             </li>
             <li>
-                <nuxt-link class="px-4 py-3" to="#">Blog</nuxt-link>
+                <nuxt-link class="px-4 py-3 hover:underline" to="#">Blog</nuxt-link>
             </li>
             <li>
-                <nuxt-link class="px-4 py-3" to="#">Contact</nuxt-link>
+                <nuxt-link class="px-4 py-3 hover:underline" to="#">Contact</nuxt-link>
             </li>
         </ul>
     </header>
