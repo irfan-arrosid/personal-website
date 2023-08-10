@@ -1,6 +1,6 @@
 <template>
     <section
-        class="header bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900">
+        class="header bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-blue-700 via-blue-800 to-gray-900 px-2.5 sm:px-5 lg:px-10">
         <div class="container mx-auto relative">
             <Navbar />
         </div>
@@ -15,11 +15,11 @@
             </div>
         </div>
     </section>
-    <section class="projects bg-[#272829] py-10">
+    <section class="projects bg-[#272829] py-10 px-2.5 sm:px-5 lg:px-10">
         <div class="container mx-auto relative">
             <h1 class="text-white font-bold text-3xl pb-7">Projects</h1>
-            <div class="card flex gap-5">
-                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-1/4">
+            <div class="card grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-full">
                     <div class="text-white font-bold text-lg pb-2 hover:underline"><a
                             href="https://github.com/irfan-arrosid/startup-aid">Start-Up Aid</a></div>
                     <div class="text-[#7c8297] pb-2">Crowdfunding website built with Golang and NuxtJS</div>
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-1/4">
+                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-full">
                     <div class="text-white font-bold text-lg pb-2 hover:underline"><a
                             href="https://github.com/irfan-arrosid/goshop-api">GoShop API</a></div>
                     <div class="text-[#7c8297] pb-2">A Backend Developer's Final Project of Virtual Internship Experience by
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-1/4">
+                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-full">
                     <div class="text-white font-bold text-lg pb-2 hover:underline"><a
                             href="https://github.com/irfan-arrosid/vehicle-rest-api">Vehicle API</a></div>
                     <div class="text-[#7c8297] pb-2">Vehicle API using REST</div>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-1/4">
+                <div class="border-solid border-[1px] border-[#7c8297] px-5 py-5 rounded-lg w-full">
                     <div class="text-white font-bold text-lg pb-2 hover:underline"><a
                             href="https://github.com/irfan-arrosid/imagen-ai">Imagen AI</a></div>
                     <div class="text-[#7c8297] pb-2">Image generator website (Dall-E Clone) built with MERN stack</div>
